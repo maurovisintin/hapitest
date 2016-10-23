@@ -1,0 +1,25 @@
+{
+  "name": "hapitest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sexykodo/hapitest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sexykodo/hapitest/issues"
+  },
+  "homepage": "https://github.com/sexykodo/hapitest#readme",
+  "dependencies": {
+    "babel-core": "^6.17.0",
+    "babel-preset-es2015": "^6.16.0",
+    "hapi": "^15.2.0"
+  }
+}
