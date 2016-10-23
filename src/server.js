@@ -3,9 +3,10 @@
 import Hapi from 'hapi'
 import Routes from './routes'
 import Db from '../config/db'
+import Config from '../config/config'
 
 const server = new Hapi.Server();
-server.connection({ port: 3000 });
+server.connection({ port: Config.server.port });
 
 server.route(Routes.endpoints);
 

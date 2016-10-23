@@ -1,4 +1,8 @@
 module.exports = {
+    server: {
+        host: 'hapitestcats.herokuapp.com',
+        port: process.env.PORT || 3000
+    },
     database: {
         username: 'sexykodo',
         password: 'mongosexykodo0',
